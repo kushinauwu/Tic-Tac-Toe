@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <meta name = "description" content="Tic Tac Toe game">
+        <meta name = "author" content="kushinauwu">  
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="css/tic-tac-toe.css">
+        <script src="js/tic-tac-toe.js"></script>
+        <title>Tic Tac Toe!</title>
+    </head>
+    <body onload="startGame();">
+        <div class="container game-wrapper">
+            <h1>A simple tic-tac-toe game!</h1>
+            <div id="message">messages go here</div>
+            <div class="game">
+            <div class="row">
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+            </div>
+             <div class="row">
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+            </div>
+             <div class="row">
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+                <div class="col-sm-4 square" onclick="nextMove(this);"></div>
+            </div>
+                </div>
+        </div>
+    </body>
+</html>
